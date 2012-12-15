@@ -94,7 +94,7 @@ ndelts = ulong(n_elements(deltas))
 
 ;make the DLL
 files = ["label_region_sparse", "disjoint_set"]
-make_dll, files, ["label_region_sparse"], INPUT_DIRECTORY = (dir + '/csrc'), $
+make_dll, files, ["label_region_sparse"], INPUT_DIRECTORY = (dir + '/c'), $
    OUTPUT_DIRECTORY = (dir + '/bin'), extra_cflags = '-O2 -DIDL', /verbose
 
 ;call the DLL 

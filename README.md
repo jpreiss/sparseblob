@@ -1,7 +1,7 @@
 sparseblob
 ==========
 
-Sparse blob detection/region-labeling in any number of dimensions for scientific language IDL.
+Sparse blob detection/region-labeling in any number of dimensions for scientific language IDL. (not Prolog - github's language detector can't recognize IDL.)
 
 
 Introduction

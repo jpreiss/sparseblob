@@ -11,17 +11,8 @@
 	Written by James Alan Preiss, Barlow Scientific, Inc. November 2010.
 */
 
-
+#include "disjoint_set.h"
 #include <stdlib.h>
-
-/* Disjoint Set structure definition */
-typedef struct DisjointSet
-{
-	unsigned long int *parent;
-	unsigned long int *rank;
-	unsigned long int top;
-	unsigned long int size;
-} DisjointSet;
 
 /* Initialize a disjoint set with a specified size
    Returns NULL on failure or a pointer to the set struct on success */

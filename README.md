@@ -3,6 +3,8 @@ sparseblob
 
 Sparse blob detection/region-labeling in any number of dimensions for scientific language IDL. (not Prolog - github's language detector can't recognize IDL.)
 
+Note: I have not used this code in YEARS, so I make no guarantee that it will work or even compile.  I don't have access to IDL anymore, but if you find bugs I will try to fix them.
+
 
 Introduction
 ------------
